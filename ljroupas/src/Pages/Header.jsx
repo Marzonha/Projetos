@@ -1,11 +1,14 @@
-import style from "./header.module.css"; 
-export default function Header () {
-    return(
-        
-        <div>
-            
-        </div>
+//importações de CSS
+import Navbar from "../components/Navbar";
+import style from "../CSS/header.module.css";
 
-    );
+
+export default function Header() {
+  return (
+    <>
+
+        <Navbar/>
     
+    </>
+  );
 }
