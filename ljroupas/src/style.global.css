@@ -1,3 +1,20 @@
+#root{
+    /* Paleta de cores */
+    --marrom-01:#4C2207 ;
+    --marrom-02:#98430E ;
+    --laranja-01:#E36414;
+    --laranja-02:#EC965B;
+    --laranja-03:#F5C89C;
+
+
+    /* Tons de cinza*/
+    --cinza-padrao-claro: rgb(209, 209, 214);
+    --cinza-padrao-escuro: rgb(72, 72, 74) ;
+    --cinza-contraste-luz: rgb(216, 216,220);
+    --cinza-contraste-escuro: rgb(36, 36, 38);
+    
+}
+
 *{
     margin: 0;
     padding: 0;
