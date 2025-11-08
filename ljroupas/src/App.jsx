@@ -5,14 +5,10 @@ import "./style.global.css";
 // Importção da Header
 import Header from "./Pages/Header";
 
-import Perfil from "./Pages/Perfil";
 function App() {
   return (
     <>
         <Header />
-        <Routes>
-          <Route path="/perfil" element={<Perfil />}></Route>
-        </Routes>
     </>
   );
 }
