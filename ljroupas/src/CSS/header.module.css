@@ -1,0 +1,19 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    padding: 1rem 2rem; /* ← Espaçamento interno */
+}
+
+.Rltv {
+    position: absolute;
+    left: 50%; /* ← Centraliza horizontalmente */
+    transform: translateX(-50%); /* ← Ajuste fino do centro */
+}
+
+/* Classe para o container do Usuário*/
+
+.usuarioContainer {
+    margin-left: auto; /* ← Empurra para a direita */
+}

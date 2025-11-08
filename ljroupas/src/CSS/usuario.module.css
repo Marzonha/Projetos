@@ -1,0 +1,47 @@
+
+.usuarioLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* ← Espaço entre imagem e texto */
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: 0.2s;
+  min-width: max-content; /* ← Impede que o texto seja cortado */
+}
+
+.usuarioLink:hover {
+   transform: scale(1.2); /* ← Aumenta a escala do objeto/texto */
+   color: white;
+   text-shadow: 2px 2px #e6b8b8;
+}
+
+.avatarContainer {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0; /* ← IMPEDE que a imagem diminua */
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block; /* ← Remove espaço extra da imagem */
+}
+
+.avatarFallback {
+  width: 32px;
+  height: 32px;
+  color: #666;
+  flex-shrink: 0; /* ← Também para o ícone */
+}
+
+.usuarioText {
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap; /* ← Impede quebra de linha */
+  flex-shrink: 0; /* ← IMPEDE que o texto seja comprimido */
+}
