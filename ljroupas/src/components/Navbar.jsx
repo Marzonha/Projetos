@@ -1,16 +1,29 @@
 //importação do CSS
 import style from "../CSS/navbar.module.css";
-import "../style.global.css";
 
 export default function Navbar() {
   return (
     <>
-    <div className={style.Pnav}>
-      <form>
-        <input type="text" id="txtBusca" placeholder="Buscar..." />
-        <img src="./Images/lupa-arredondada.png" id="btnBusca" alt="Buscar" />
-      </form>
-    </div>
+      <div className={style.Pnav}>
+        <form
+          className={style.Form}
+          role="search"
+          onSubmit={(e) => e.preventDefault()}
+        >
+          <label htmlFor="search" className={style.srOnly}>
+            Buscar
+          </label>
+          <input
+            id="search"
+            type="search"
+            placeholder="O QUE PROCURA ?"
+            aria-label="Buscar"
+          />
+          <button type="submit" className={style.Btn}>
+            Buscar
+          </button>
+        </form>
+      </div>
     </>
   );
 }
