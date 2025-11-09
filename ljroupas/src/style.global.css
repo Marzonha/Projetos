@@ -8,6 +8,12 @@
     --laranja-02:#EC965B;
     --laranja-03:#F5C89C;
 
+    --verde-01:#99CD85;
+    --verde-02:#CFE0BC;
+    --verde-03:#7FA653;
+    --verde-04:#63783D;
+    --verde-05:#99CD85;
+
 
     /* Tons de cinza*/
     --cinza-padrao-claro: rgb(209, 209, 214);
@@ -21,7 +27,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #F5C89C;
+    background: #CFE0BC;
     font-family:"Fjalla One", sans-serif;
 
 }
