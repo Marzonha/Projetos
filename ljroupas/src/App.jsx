@@ -4,11 +4,16 @@ import { Routes, Route } from "react-router-dom";
 import "./style.global.css";
 // Importção da Header
 import Header from "./Pages/Header";
+import Perfil from "./Pages/Perfil";
 
 function App() {
   return (
     <>
-        <Header />
+      <Header />
+      <Routes>
+        <Route path="/" />
+        <Route path="/perfil" element={<Perfil />} /> {/* ← Aqui! */}
+      </Routes>
     </>
   );
 }
