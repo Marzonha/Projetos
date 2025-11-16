@@ -13,9 +13,9 @@ import style from "../CSS/header.module.css";
 export default function Header() {
   return (
     <header className={style.Header}>
-      <Link to="/">
-        <img src="" alt="Logo da Loja" />
-      </Link>
+      
+        <img src="./Images/logo.png" alt="Logo da Loja" />
+      
 
       {/* Navbar centralizada */}
       <div className={style.Rltv}>
